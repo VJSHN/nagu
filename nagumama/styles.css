@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+body{
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+section{
+  padding: 0.1% 5%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5% 8%;
+  align-items: center;
+}
+
+
+
+.logo{
+  text-decoration: none;
+  color: #00ABB3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+.nav-link li {
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  margin-right: 2rem;
+}
+
+.nav-link a {
+  color: #00ABB3;
+}
+
+
+.nav-link li a.active,
+.nav-link li a:hover{
+  transition: all 0.3s ease 0s;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  background-color: #00ABB3;
+  color: #fff;
+}
+
+/* home section */
+
+.homepage .swiper-slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.images{
+  flex: 1 1 40rem;
+}
+.content{
+  flex: 1 1 30rem;
+  margin-left: 3%;
+}
+.homepage .swiper-slide .images img{
+      width: 85%;
+      margin-left: 10%;
+}
+
+.homepage .swiper-slide .content h1{
+      font-family: 'Nunito', sans-serif;
+      font-weight: bolder;
+      font-size: 3.5rem;
+      color: #00ABB3;
+}
+.homepage .swiper-slide .content p{
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0,0,0,.5);
+  font-size: 1.5rem;
+}
+
+.homepage .swiper-slide .content .support{
+    font-size: 3rem;
+}
